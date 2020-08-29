@@ -1,11 +1,21 @@
 <template>
+
+<b-container fluid>
   <div id="app">
       <navbar/>
-      <boxleft/>
-      <boxright/>
-
-      <router-view/>
+      
+      <router-view>
+      
+      <home/>
+      
+      </router-view>
+      
+      <futter/>
+  
   </div>
+  
+</b-container>
+
 </template>
 
 <style>
@@ -14,15 +24,15 @@
 
 <script>
 import navbar from "@/Navbar/nav.vue"
-import boxleft from "@/Box/boxleft.vue"
-import boxright from "@/Box/boxright.vue"
+import futter from "@/Box/futter.vue"
+import home from "@/views/Home.vue"
 
 export default {
   name: 'Index',
   components: {
     navbar,
-    boxleft,
-    boxright,
+    futter,
+    home,
   },
 }
 

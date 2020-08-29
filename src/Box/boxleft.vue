@@ -22,11 +22,12 @@
               <img class="img-responsive" style="width:100%; height:auto; margin:0px;" src="https://www.getdigital.de/web/getdigital/gfx/products/__generated__resized/1100x1100/15343NSM_yoshi_main.jpg">
             </b-col>
         
-        
-
         </b-row>
+
+        <div><br><br>
+        </div>
         
-        <b-row  style="background: blue;" align-v="end" >
+        <b-row  style="background: orange;" >
           
           <b-col>
           <img class="img-responsive" style="width:100%; height:auto; margin:0px;" src="https://www.getdigital.de/web/getdigital/gfx/products/__generated__resized/1100x1100/15343NSM_yoshi_main.jpg">  
@@ -42,6 +43,7 @@
     </b-row>
   
   </div>
+
 
   
 

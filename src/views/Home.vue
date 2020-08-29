@@ -1,17 +1,21 @@
 <template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div>
+ 
+  <cssgrid/>
+  
+</div>
 </template>
 
 <script>
 // @ is an alias to /src
 
+import cssgrid from "@/Box/cssgrid.vue"
 
 export default {
   name: 'Home',
   components: {
+
+    cssgrid,
     
   }
 }
